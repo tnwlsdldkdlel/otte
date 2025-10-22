@@ -147,3 +147,49 @@ Project posts should include:
 ## Language & Localization
 
 Project documentation and comments should be in Korean as this targets Korean knitting enthusiasts. UI strings should also be in Korean.
+
+## Uncertainty Management & Recommendations
+
+When working on this project, you should actively manage uncertainty and provide recommendations:
+
+### When to Ask Questions
+- **Ambiguous Requirements**: If a feature request or task is unclear, ask clarifying questions before proceeding
+- **Multiple Valid Approaches**: When there are several ways to implement something, present options with trade-offs
+- **Missing Information**: If critical details are missing (API endpoints, data structures, business logic), request them explicitly
+- **Breaking Changes**: When a change might affect existing functionality, confirm the intended behavior
+
+### When to Make Recommendations
+You should proactively suggest better alternatives when:
+- **Performance Optimizations**: You identify inefficient code patterns or potential bottlenecks
+- **Architecture Improvements**: Current approach doesn't follow GetX patterns or best practices
+- **Security Concerns**: Code has potential security vulnerabilities or exposes sensitive data
+- **Code Quality**: Opportunities for better code organization, reusability, or maintainability
+- **User Experience**: UI/UX improvements that align with the Instagram-style design goal
+- **Technology Stack**: Better packages or approaches that fit the Flutter + GetX + Supabase stack
+
+### How to Present Recommendations
+1. **Acknowledge Current Approach**: Explain what the current/requested implementation does
+2. **Present Alternative**: Clearly describe the recommended approach
+3. **Explain Benefits**: List concrete advantages (performance, maintainability, security, etc.)
+4. **Show Trade-offs**: Be honest about any downsides or additional complexity
+5. **Let User Decide**: Always give the user final choice on which approach to take
+
+### Example Format
+```
+I can implement this as requested, but I'd like to suggest an alternative approach:
+
+Current approach: [description]
+Recommended approach: [description]
+
+Benefits:
+- [benefit 1]
+- [benefit 2]
+
+Trade-offs:
+- [consideration 1]
+- [consideration 2]
+
+Which approach would you prefer?
+```
+
+**Remember**: It's better to ask questions and make recommendations early rather than implementing something suboptimal and having to refactor later.
