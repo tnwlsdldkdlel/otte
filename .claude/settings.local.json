@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(flutter --version:*)",
+      "Bash(flutter create:*)",
+      "Bash(flutter pub get:*)",
+      "Bash(tree:*)",
+      "Bash(flutter analyze:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nInitial commit: Flutter 프로젝트 초기 설정\n\n- Flutter 프로젝트 생성 (iOS/Android 지원)\n- GetX 상태 관리 및 라우팅 구조 설정\n- Supabase 백엔드 연동 준비\n- Auth 모듈 구현 (로그인/회원가입 UI)\n- Home 모듈 구현 (Instagram 스타일 피드)\n- 프로젝트 문서화 (README.md, CLAUDE.md)\n- 기본 테마 및 색상 시스템 구축\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
